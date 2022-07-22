@@ -1,0 +1,98 @@
+*{margin:0;padding:0;}
+body{
+	background-image:url("imgs/mainBg.png");
+}
+.social{
+	width:460px;
+	border:1px solid black;
+}
+.fix{
+	overflow:hidden;
+}
+/******* top**********/
+.social_top{
+	padding: 20px 20px 20px 20px;
+    background-image: url(imgs/social_bd.png);
+    margin-top: -18px;
+	border-bottom:1px solid #696969;
+}
+/******** social_top_left*********/
+.social_top_left{
+	width:300px;
+	float:left;
+}
+.social_top_left > small{
+	position: relative;
+    top: 40px;
+    left: 260px;
+	color:#FFFFFF;
+}
+.social_top_left > h2{
+	color:#FFFFFF;
+}
+.social_top_left > h2 > span{
+	font-size: 40px;
+	color:#FFFFFF;
+}
+
+/********* social_top_right*********/
+.social_top_right{
+	float:right;
+}
+.social_top_right > ul{}
+.social_top_right > ul > li{
+	list-style:none;
+	color:#FFFFFF;
+}
+
+/******** social_bottom*********/
+.social_bottom {
+	background:#3C3A3B;
+	border-top:1px solid #CCCCCC;
+	padding:20px;
+	    margin-top: -5px;
+}
+/****** social_manu1 ***************/
+.social_manu1{
+	margin-bottom:20px;
+}
+.social_manu1  > ul{
+
+}
+.social_manu1  > ul > li{
+	list-style:none;
+	float:left;
+	margin-left: 13px;
+}
+.social_manu1  > ul > li:first-child{
+	margin-left:0;
+}
+
+/****** social_menu2***************/
+.social_menu2  > ul{
+
+}
+.social_menu2  > ul > li{
+	list-style:none;
+	float:left;
+	margin-left: 13px;
+}
+.social_menu2  > ul > li:first-child{
+	margin-left:0;
+}
+
+/****** hover effect*******/
+.social_manu1  > ul > li > a > img, .social_menu2  > ul > li > a > img{
+	width:100%;
+	background-position:center;
+	
+	transition: all 0.5s;
+}
+.social_manu1  > ul > li > a > img:hover,.social_menu2  > ul > li > a > img:hover{
+	width:110%;
+	
+}
+
+
+
+
